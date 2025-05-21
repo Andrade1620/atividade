@@ -1,14 +1,41 @@
-.btn {
-    background-color: #3a7fff; /* azul claro */
-    color: white; /* cor do texto branca */
-    border-radius: 50px;
-    padding: 10px 20px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    
+#conteudo {
+    background: #a10404;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
 }
-#sim {
+
+.btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.caixa-estrutura{
+    margin: auto;
+    width: 170px;
+}
+
+
+#btn1{
     position: fixed;
     display: block;
+}
+
+h2{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+#btn2{
+    position: absolute;
 }
