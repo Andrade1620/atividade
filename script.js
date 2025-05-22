@@ -4,8 +4,14 @@ function sim() {
     location.href = "https://www.youtube.com/watch?v=izGwDsrQ1eQ";
 };
 
-function nao() {
-    alert("Você não aceitou namorar comigo :(")
+function desvia(btn) {
+    alert("Você não me quis :(")
+    btn.style.position = 'absolute';
+    btn.style.botton = geraPosicao(10, 90);
+    btn.style.left = geraPosicao (10, 90);
+    console.log("Opa, desviei...");
+}
 
-    location.href = "https://www.youtube.com/watch?v=G0Hkln_DFO0";
+function geraPosicao(min, max) {
+    return (Math.random() * (max - min) + min) + "%";
 }
